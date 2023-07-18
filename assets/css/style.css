@@ -1,5 +1,79 @@
-*{
+/* //////////           Mobile Device          ////////// */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* //////////           Common Style          ////////// */
+:root {
+    --primary-color: #FF42A5;
+    --secondary-color: #0B0223;
+    --third-color: #3C354F;
+    --white-color: #fff;
+    --dark-color: #534C64;
+    --heading-font-size: 48px;
+    --para-font-size: 18px;
+}
+
+.section-heading {
+    font-size: var(--heading-font-size);
+    color: var(--secondary-color);
+}
+
+.gradient-text{
+    background-image: linear-gradient(to bottom, #F948B2 ,  #8758F1 );
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.section-title {}
+
+.paragraph {
+    color: #534C64;
+    font-size: var(--para-font-size);
+    font-weight: 400;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    padding: 20px 40px;
+    color: var(--white-color) ;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    margin: 10px;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+/* //////////           Common Style End          ////////// */
+
+
+
