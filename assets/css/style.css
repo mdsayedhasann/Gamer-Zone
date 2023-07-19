@@ -34,7 +34,7 @@ body{
     color: var(--secondary-color);
 }
 
-.section-heading {
+.section-heading, .section-title {
     font-size: var(--heading-font-size);
     color: var(--secondary-color);
 }
@@ -45,13 +45,17 @@ body{
     -webkit-background-clip: text;
 }
 
-.section-title {}
+.section-title {
+    font-size: 24px;
+    padding: 10px 0;
+}
 
 .paragraph {
     color: #534C64;
     font-size: var(--para-font-size);
     font-weight: 400;
     line-height: 30px;
+    margin: 15px 0;
 }
 a{
     text-decoration: none;
@@ -66,7 +70,8 @@ a{
     font-size: 20px;
     font-weight: 600;
     border-radius: 48px;
-    margin: 10px;
+    margin: 20px 0px;
+    
 }
 
 .btn-blue{
@@ -170,3 +175,27 @@ header{
 }
 
 /* //////////           Banner Style End          ////////// */
+
+
+
+/* //////////           Second Banner Style Start          ////////// */
+.second-banner-section{
+    background: linear-gradient(120deg, #FFE8F4, #fff);
+    padding: 40px 0;
+}
+.second-banner-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.second-banner-image{
+    width: 60%;
+}
+.second-banner-image img{
+    width: 100%;
+}
+.second-banner-contents{
+    text-align: right;
+    width: 40%;
+}
+
+/* //////////           Second Banner Style End          ////////// */
