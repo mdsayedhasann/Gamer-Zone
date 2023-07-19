@@ -218,3 +218,34 @@ header{
 }
 
 /* //////////           Video Section Style End          ////////// */
+
+
+
+
+
+/* //////////           Hero Section Style Start          ////////// */
+.hero-container{
+    justify-content: space-evenly;    
+    align-items: center;
+    gap: 2%;
+}
+.hero-images{
+    position: relative;
+}
+.hero-small-image{
+    position: absolute;
+    top: 70%;
+    z-index: 20;
+    right: 80%;
+}
+ .hero-contents{
+    padding-right: 5%;
+}
+.hero-images{
+    float: right;
+}
+
+.hero-small-image{
+    width: 218px;
+}
+/* //////////           Hero Section Style End          ////////// */
