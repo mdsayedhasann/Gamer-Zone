@@ -283,7 +283,7 @@ header {
 }
 
 .overlay .video-icon{
-    color: var(--primary-color) !important;
+    color: var(--white-color) !important;
     font-size: 20px;
     padding: 15px;
     border-radius: 50%;
