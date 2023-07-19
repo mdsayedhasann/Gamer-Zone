@@ -143,5 +143,16 @@
      /* Banner Section Ends */
 
 
-     
+     /* Second Banner Section Start */
+
+     .second-banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-banner-image, .second-banner-contents{
+        width: 100%;
+        text-align: center;
+    }
+    
+     /* Second Banner Section End */
 }
