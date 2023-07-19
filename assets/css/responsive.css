@@ -180,4 +180,28 @@
      }
 
      /* Video Section End */
+
+
+     /* Hero Section Start */
+     .hero-container{
+        flex-direction: column;
+        text-align: center;
+     }
+
+     .hero-contents {
+        width: 70%;
+    }
+     .hero-images{
+         flex-wrap: wrap;
+         width: 100%;
+     }
+     .hero-big-image{
+         width: 80%;
+     }
+     .hero-small-image {
+        
+        right: 65%;
+    }
+     
+     /* Hero Section End */
 }

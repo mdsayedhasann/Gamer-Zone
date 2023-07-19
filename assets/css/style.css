@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -26,21 +26,23 @@ body{
 }
 
 
-.primary-color{
-    
+.primary-color {
+
     color: var(--primary-color);
 }
-.secondary-color{
+
+.secondary-color {
     color: var(--secondary-color);
 }
 
-.section-heading, .section-title {
+.section-heading,
+.section-title {
     font-size: var(--heading-font-size);
     color: var(--secondary-color);
 }
 
-.gradient-text{
-    background-image: linear-gradient(to bottom, #F948B2 ,  #8758F1 );
+.gradient-text {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
 }
@@ -57,86 +59,99 @@ body{
     line-height: 30px;
     margin: 15px 0;
 }
-a{
+
+a {
     text-decoration: none;
     padding: 10px 15px;
 }
 
-.btn, .btn-blue{
+.btn,
+.btn-blue {
     background-color: var(--primary-color);
     padding: 20px 40px;
-    color: var(--white-color) ;
+    color: var(--white-color);
     border: 0;
     font-size: 20px;
     font-weight: 600;
     border-radius: 48px;
     margin: 20px 0px;
-    
+
 }
 
-.btn-blue{
+.btn-blue {
     background-color: var(--fourth-color);
 
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
-.container{
+
+.container {
     width: 1060px;
     margin: 0 auto;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.grid{
+
+.grid {
     display: grid;
 }
-ul > li{
+
+ul>li {
     list-style: none;
 }
+
 /* //////////           Common Style End          ////////// */
 
 
 
 /* //////////           Header Style Start          ////////// */
-header{
+header {
     width: 100%;
     box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
-.navbar{
+
+.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
 }
 
-.nav-logo{
+.nav-logo {
     align-items: center;
 }
 
-.nav-logo img{
+.nav-logo img {
     margin-right: 10px;
 }
 
-.nav-items ul{
+.nav-items ul {
     display: flex;
 
 }
-.navbar li{
+
+.navbar li {
     list-style: none;
     padding: 10px 15px;
     border-radius: 5px;
     text-align: center;
 }
-.nav-icons i{
+
+.nav-icons i {
     padding-left: 10px;
 }
+
 /* //////////           Header Style End          ////////// */
 
 
@@ -144,33 +159,37 @@ header{
 
 
 /* //////////           Banner Style Start          ////////// */
-.banner-section{
+.banner-section {
     background-image: url(../images/Group\ 14.png);
     background-size: 50%;
     background-repeat: no-repeat;
 
 }
-.banner-container{
-    
+
+.banner-container {
+
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-heading{
+.banner-heading {
     font-size: 80px;
 }
 
-.banner-content{
+.banner-content {
     width: 50%;
 }
-.banner-images{
+
+.banner-images {
     width: 50%;
 }
-.banner-images img{
+
+.banner-images img {
     width: 100%;
     justify-content: end;
 }
-.banner-buttons{
+
+.banner-buttons {
     padding: 20px 0;
 }
 
@@ -179,21 +198,25 @@ header{
 
 
 /* //////////           Second Banner Style Start          ////////// */
-.second-banner-section{
+.second-banner-section {
     background: linear-gradient(120deg, #FFE8F4, #fff);
     padding: 40px 0;
 }
-.second-banner-container{
+
+.second-banner-container {
     justify-content: space-between;
     align-items: center;
 }
-.second-banner-image{
+
+.second-banner-image {
     width: 60%;
 }
-.second-banner-image img{
+
+.second-banner-image img {
     width: 100%;
 }
-.second-banner-contents{
+
+.second-banner-contents {
     text-align: right;
     width: 40%;
 }
@@ -206,14 +229,16 @@ header{
 
 
 /* //////////           Video Section Style Start          ////////// */
-.video-section{
+.video-section {
     padding: 60px 0;
 }
-.videos{
+
+.videos {
     justify-content: space-between;
     gap: 2%;
 }
-.video img{
+
+.video img {
     width: 100%;
 }
 
@@ -224,28 +249,41 @@ header{
 
 
 /* //////////           Hero Section Style Start          ////////// */
-.hero-container{
-    justify-content: space-evenly;    
+.hero-container {
+    justify-content: space-evenly;
     align-items: center;
     gap: 2%;
+    text-align: right;
 }
-.hero-images{
+
+.hero-images {
     position: relative;
 }
-.hero-small-image{
+.hero-big-image{
+    
+}
+.hero-small-image {
     position: absolute;
     top: 70%;
     z-index: 20;
     right: 80%;
 }
- .hero-contents{
+
+.hero-contents {
     padding-right: 5%;
+    width: 40%;
 }
-.hero-images{
-    float: right;
+
+.hero-images {
+    width: 50%;
+    margin-left: 5%;
 }
 
 .hero-small-image{
-    width: 218px;
+    width: 40%
 }
+.hero-big-image{
+    width: 100%
+}
+
 /* //////////           Hero Section Style End          ////////// */
