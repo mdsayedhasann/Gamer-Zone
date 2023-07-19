@@ -251,6 +251,48 @@ header {
     width: 100%;
 }
 
+
+.video{
+    
+    position: relative;
+    display: inline-block;
+    transition: transform .4s ease-in;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    background-color: transparent;
+    left: -400%;
+    top:  0;
+    width: 100%;
+    height: 83%;
+    opacity: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.video:hover .overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    opacity: 1;
+    
+}
+
+.overlay .video-icon{
+    color: var(--primary-color) !important;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.video-icon i{
+    color: #0B0223 !important;
+}
+
+
 /* //////////           Video Section Style End          ////////// */
 
 
