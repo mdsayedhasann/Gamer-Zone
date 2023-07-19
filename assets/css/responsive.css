@@ -209,6 +209,18 @@
 
 
      /* Pre Footer Section Start */
-     
+
      /* Pre Footer Section End */
+
+
+     /* Footer Start */
+     .footer-links{
+         gap: 30px;
+         flex-wrap: wrap;
+     }
+     
+     footer .copyright{
+        margin-top: 40px;
+     }
+     /* Footer End */
 }
