@@ -1,7 +1,59 @@
 /* //////////           Tablet Device          ////////// */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* Common Style */
+    .section-heading {
+        font-size: 35px;
+    }
+    .btn, .btn-blue{
+        padding: 15px 20px;
+        font-size: 16px;
     
-}
+    }
+
+    /* Navbar Tablet Responsive */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+
+    }
+
+        /* Banner Section Start */
+        /* .banner-section {
+            background-image: none
+        }
+    
+        .banner-contents {
+            background-image: url(../images/Group\ 14.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 20px 0;
+        } */
+    
+        /* .banner-container {
+            flex-direction: column-reverse;
+        } */
+        .banner-heading{
+            font-size: 60px;
+        }
+    }
+
 
 
 
@@ -24,5 +76,67 @@
 /* //////////           Mobile Device          ////////// */
 
 @media screen and (max-width: 576px) {
+
+    /* Common Style for mobile */
+
+    .section-heading {
+        font-size: 30px;
+    }
+    .btn, .btn-blue{
+        padding: 10px 15px;
+        font-size: 12px;
     
+    }
+    
+
+    /* Navbar Mobile Responsive */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+
+    }
+
+    /* Navbar Mobile End */
+
+
+
+
+    /* Banner Section Start */
+    .banner-section {
+        background-image: none
+    }
+    
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-contents {
+        background-image: url(../images/Group\ 14.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-heading{
+        font-size: 60px;
+    }
 }
