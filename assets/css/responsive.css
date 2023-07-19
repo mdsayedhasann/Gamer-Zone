@@ -52,10 +52,16 @@
         /* .banner-container {
             flex-direction: column-reverse;
         } */
+
+        .banner-section {
+            margin-top: 20px;
+        }
+
         .banner-heading{
             font-size: 60px;
         }
 
+        
 
         /* Video Section */
         .videos{
@@ -153,7 +159,7 @@
     .banner-heading{
         font-size: 60px;
     }
-
+    
      /* Banner Section Ends */
 
 
