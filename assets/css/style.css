@@ -199,3 +199,22 @@ header{
 }
 
 /* //////////           Second Banner Style End          ////////// */
+
+
+
+
+
+
+/* //////////           Video Section Style Start          ////////// */
+.video-section{
+    padding: 60px 0;
+}
+.videos{
+    justify-content: space-between;
+    gap: 2%;
+}
+.video img{
+    width: 100%;
+}
+
+/* //////////           Video Section Style End          ////////// */

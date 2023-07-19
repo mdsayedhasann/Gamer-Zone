@@ -52,6 +52,13 @@
         .banner-heading{
             font-size: 60px;
         }
+
+
+        /* Video Section */
+        .videos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 
 
@@ -155,4 +162,22 @@
     }
     
      /* Second Banner Section End */
+
+
+
+     /* Video Section Start */
+     .video-section .container{
+         width: 80%;
+     }
+     .videos{
+         flex-direction: column;
+     }
+     .video{
+         margin-bottom: 20px;
+     }
+     .video p{
+         padding: 15px 10px;
+     }
+
+     /* Video Section End */
 }
