@@ -256,34 +256,77 @@ header {
     text-align: right;
 }
 
-.hero-images {
-    position: relative;
-}
-.hero-big-image{
-    
-}
-.hero-small-image {
-    position: absolute;
-    top: 70%;
-    z-index: 20;
-    right: 80%;
-}
-
 .hero-contents {
     padding-right: 5%;
     width: 40%;
 }
 
 .hero-images {
+    position: relative;
     width: 50%;
     margin-left: 5%;
 }
 
-.hero-small-image{
-    width: 40%
-}
-.hero-big-image{
+.hero-big-image {
     width: 100%
 }
 
+.hero-small-image {
+    position: absolute;
+    width: 40%;
+    top: 70%;
+    z-index: 20;
+    right: 80%;
+}
+
+
 /* //////////           Hero Section Style End          ////////// */
+
+
+
+/* //////////           Pre Footer Section Start          ////////// */
+
+.prefooter-section {
+    margin-top: 100px;
+    background-color: #FFF9FC;
+    padding: 100px 0;
+}
+
+.prefooter-items {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 5px;
+}
+
+.item {
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 35px;
+    align-items: center;
+    padding: 5px 10px 5px 2px;
+    /* transition: border .1s; */
+
+}
+
+.item:hover {
+    border: 2px solid var(--primary-color);
+    padding: 2px 10px 2px 2px;
+}
+.item:hover .section-heading{
+    color: var(--primary-color);
+}
+
+.item .section-heading {
+    font-size: 16px;
+}
+
+.item img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 4px;
+
+}
+
+/* //////////           Pre Footer Section End          ////////// */

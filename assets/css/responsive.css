@@ -182,6 +182,8 @@
      /* Video Section End */
 
 
+
+
      /* Hero Section Start */
      .hero-container{
         flex-direction: column;
@@ -189,19 +191,24 @@
      }
 
      .hero-contents {
-        width: 70%;
+        width: 100%;
+        padding: 20px;
     }
      .hero-images{
-         flex-wrap: wrap;
          width: 100%;
      }
      .hero-big-image{
          width: 80%;
      }
      .hero-small-image {
-        
+        top: 55%;
         right: 65%;
     }
      
      /* Hero Section End */
+
+
+     /* Pre Footer Section Start */
+     
+     /* Pre Footer Section End */
 }
