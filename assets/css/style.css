@@ -21,6 +21,7 @@ body {
     --fourth-color: #4EC5F7;
     --white-color: #fff;
     --dark-color: #534C64;
+    --silver-color: #A5A5A5;
     --heading-font-size: 48px;
     --para-font-size: 18px;
 }
@@ -36,6 +37,12 @@ body {
 }
 .white-color{
     color: var(--white-color);
+}
+.dark-color{
+    color: var(--dark-color);
+}
+.silver-color{
+    color: var(--silver-color);
 }
 .section-heading,
 .section-title {
@@ -334,7 +341,6 @@ header {
 /* //////////           Pre Footer Section End          ////////// */
 footer{
     background-color: var(--secondary-color);
-    height: 300px;
     padding: 80px 0;
 }
 
@@ -347,6 +353,13 @@ footer .nav-logo{
 }
 .footer-links a{
     color: var(--white-color);
+}
 
+.silver-color a{
+    color: var(--silver-color);
+}
+.silver-color{
+    color: var(--silver-color);
+    font-size: 14px;
 }
 /* //////////           Pre Footer Section End          ////////// */
