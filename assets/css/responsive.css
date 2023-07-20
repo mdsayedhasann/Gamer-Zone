@@ -246,6 +246,12 @@
          gap: 30px;
          flex-wrap: wrap;
      }
+
+     .social-grid{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         text-align: center;
+     }
      
      footer .copyright{
         margin-top: 40px;
