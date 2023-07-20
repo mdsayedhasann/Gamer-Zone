@@ -222,7 +222,20 @@
 
 
      /* Pre Footer Section Start */
-
+    .prefooter-items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item img {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 4px;
+    
+    }
+    .item .section-heading {
+        font-size: 10px;
+    }
      /* Pre Footer Section End */
 
 

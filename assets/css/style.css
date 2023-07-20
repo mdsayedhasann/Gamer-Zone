@@ -373,6 +373,7 @@ header {
 }
 
 .prefooter-items {
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 30px;
@@ -385,6 +386,7 @@ header {
     border-radius: 35px;
     align-items: center;
     padding: 5px 10px 5px 2px;
+    cursor: pointer;
     /* transition: border .1s; */
 
 }
